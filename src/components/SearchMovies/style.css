@@ -1,0 +1,28 @@
+.form {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.label {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.input {
+    font-size: 1.6rem;
+    padding: .5rem 2rem;
+    /* line-height: 2rem; */
+    border-radius: 15px;
+    border: .5px solid #ddd;
+}
+
+.button {
+    background-color: darkmagenta;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
